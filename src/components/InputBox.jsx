@@ -43,7 +43,7 @@ function InputBox({
           disabled={currencyDisable}
         >
           {currencyOptions.map((currency) => (
-            {/* must remember the Key while using loops to whether the DOM is not creating thousands of things */}
+            /* must remember the Key while using loops to whether the DOM is not creating thousands of things */
             <option key={currency} value={currency}>
               {currency}
             </option>
